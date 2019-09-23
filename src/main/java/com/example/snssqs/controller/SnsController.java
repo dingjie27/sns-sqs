@@ -9,9 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class SnsController {
     @Autowired
     SnsService snsService;
-
-    @GetMapping("/pub")
-    public void testSnsPub() {
+    /**
+     * sns发布消息接口
+     */
+    @GetMapping("/publish")
+    public void snsPub() {
         snsService.pulishMsg();
     }
 }

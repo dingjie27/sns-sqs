@@ -14,6 +14,7 @@ public class SnsService {
     public void pulishMsg() {
         // Publish a message to an Amazon SNS topic.
         final String msg = "If you receive this message, publishing a message to an Amazon SNS topic works.";
+        //替换成自己sns的arn，在console或者cli中可以找到这个arn
         final String topicArn = "arn:aws:sns:us-west-2:400177586157:fanout";
         final PublishRequest publishRequest = new PublishRequest(topicArn, msg);
         final PublishResult publishResponse = snsClient.publish(publishRequest);
