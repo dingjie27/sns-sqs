@@ -1,4 +1,4 @@
-package com.example.snssqs.snssqs;
+package com.example.snssqs;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
