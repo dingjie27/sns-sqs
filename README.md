@@ -6,8 +6,8 @@ The "fanout" scenario is when an Amazon SNS message is sent to a topic and then 
 In this demo, you will implement a fanout messaging scenario using Amazon Simple Notification Service (SNS) and Amazon Simple Queue Service (SQS). Messages can be pulished via http API and  "pushed" to multiple subscribers.
 
 The architechture is as follow:
+![image](https://github.com/dingjie27/sns-sqs/blob/master/images/architecture.png)
 
-https://github.com/dingjie27/sns-sqs/blob/master/images/architecture.png
 
 
 1.The demo is based on Springboot framework.
