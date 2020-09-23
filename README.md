@@ -7,7 +7,7 @@ In this demo, you will implement a fanout messaging scenario using Amazon Simple
 
 The architechture is as follow:
 
-images/architecture.png
+https://github.com/dingjie27/sns-sqs/blob/master/images/architecture.png
 
 
 1.The demo is based on Springboot framework.
